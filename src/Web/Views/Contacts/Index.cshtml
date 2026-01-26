@@ -1,0 +1,31 @@
+﻿@model IEnumerable<ContactViewModel>
+
+@{
+  ViewBag.Title = "Contacts List";
+}
+
+<h2>Contacts List</h2>
+
+<table class="table">
+  <tr>
+    <th>@Html.DisplayNameFor(model => model.Name)</th>
+    <th>@Html.DisplayNameFor(model => model.Email)</th>
+    <th></th>
+  </tr>
+
+  @foreach (var item in Model)
+  {
+    <tr>
+      <td>@Html.DisplayFor(modelItem => item.Name)</td>
+      <td>@Html.DisplayFor(modelItem => item.Email)</td>
+      <td>
+        @Html.ActionLink("Contact Details", "Contact", new { idContact = item.Id }) |
+        @Html.ActionLink("Delete Contact", "Delete", new { idContact = item.Id }, "Delete")
+      </td>
+    </tr>
+  }
+</table>
+
+<div>
+  @Html.ActionLink("Add New Contact", "Contact")
+</div>
