@@ -1,10 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 17
-VisualStudioVersion = 17.0.31903.59
+# Visual Studio Version 18
+VisualStudioVersion = 18.6.11822.322 stable
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{827E0CD3-B72D-47B6-A68D-7590B98EB39B}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure", "src\Infrastructure\Infrastructure.csproj", "{14F8CE11-FAF0-45E1-9643-6E85F05B8066}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application", "src\Application\Application.csproj", "{1C4F21C6-6784-4E41-9B72-CE318F031657}"
@@ -71,14 +69,5 @@ Global
 		{793F36F2-144D-4943-B436-5FB32A8D26BF}.Release|x64.Build.0 = Release|Any CPU
 		{793F36F2-144D-4943-B436-5FB32A8D26BF}.Release|x86.ActiveCfg = Release|Any CPU
 		{793F36F2-144D-4943-B436-5FB32A8D26BF}.Release|x86.Build.0 = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(NestedProjects) = preSolution
-		{14F8CE11-FAF0-45E1-9643-6E85F05B8066} = {827E0CD3-B72D-47B6-A68D-7590B98EB39B}
-		{1C4F21C6-6784-4E41-9B72-CE318F031657} = {827E0CD3-B72D-47B6-A68D-7590B98EB39B}
-		{4E33B930-15EF-44DD-86A4-D6AA66A3E2E2} = {827E0CD3-B72D-47B6-A68D-7590B98EB39B}
-		{793F36F2-144D-4943-B436-5FB32A8D26BF} = {827E0CD3-B72D-47B6-A68D-7590B98EB39B}
 	EndGlobalSection
 EndGlobal
