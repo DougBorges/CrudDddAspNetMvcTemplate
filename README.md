@@ -1,1 +1,1 @@
-# CRUD DDD ASP.NET MVC Template
+# ASP.NET MVC DDD CRUD Template
